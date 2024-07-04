@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Phico\View;
+namespace Phico\Validation;
 
 use Phico\PhicoException;
 use Somnambulist\Components\Validation\Validation;
