@@ -1,0 +1,25 @@
+{
+  "name": "phico/validation",
+  "description": "Validation support for Phico",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Phico\\Validation\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "indgy",
+      "email": "me@indgy.uk"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "somnambulist/validation": "dev-main"
+  }
+}
