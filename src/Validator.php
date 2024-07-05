@@ -21,4 +21,8 @@ class Validator
     {
         return $this->factory->make($data, $rules);
     }
+    public function check(array $data, array $rules): Validation
+    {
+        return $this->factory->validate($data, $rules);
+    }
 }
